@@ -10,7 +10,3 @@ actions:
     outputs:
       highly_sensitive:
         cohort: output/input.csv
-        
-  run_model:
-    run: python:analysis/OS_EDA.py
-    needs: [generate_study_population]
